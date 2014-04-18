@@ -1,0 +1,28 @@
+<table class='table dashboardTable dataTable'>
+  <thead>
+    <tr>
+      <th>Campaign</th>
+      <th>Start Date</th>
+      <th>End Date</th>
+      <th>Agency</th>
+      <th>Advertiser</th>
+      <th>Budget</th>
+      <th>Credit Status</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each io in controller}}
+      <tr class='clickRow'>
+        <td>{{#link-to 'ios.show' this}}{{io.name}}{{/link-to}}</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>{{io.budget}}</td>
+        <td>{{io.creditStatus}}</td>
+        <td>{{#link-to 'ios.show' this}}{{io.workflowState}}{{/link-to}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

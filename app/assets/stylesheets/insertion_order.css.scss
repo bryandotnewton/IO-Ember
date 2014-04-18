@@ -1,0 +1,12 @@
+/*
+// Place all the styles related to the InsertionOrder controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+*= require redzone/ui
+*/
+
+body { padding-top: 40px; }
+table tbody tr.even > td, table tbody tr.even > th {
+  background-color: #FFFFFF;
+}

@@ -1,0 +1,321 @@
+h3 {
+    background-color: #EEEEEE;
+    padding-left: 15px;
+    border-radius: 8px;
+}
+nav {
+    background-color: #000000;
+}
+
+#pdfViewport {
+
+    height: 400px;
+}
+
+#aForm {
+
+    background-color: #FFFFEE;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#well-controls {
+    margin-bottom: -1px;
+
+}
+
+.dashboardTable {
+   text-align: left;
+    min-width: 750px;
+    padding: 20px;
+
+}
+
+.dashboardTable thead {
+    background-color: #eeeeee;
+}
+
+.dashboardTableModal {
+    min-width: 350px;
+}
+
+.dashboardTable td {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.bigNumber {
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#headerTable {
+   margin-bottom: 20px;
+    min-width: 250px;
+}
+
+.dashboardContainer {
+    margin-top: 20px;
+}
+
+.hiddenTable{
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom:-5px;
+}
+
+.hiddenRow td {
+    /*padding:10px;*/
+
+    text-align: center;
+}
+
+#emailArea{
+     width: 250px;
+     height: 60px;
+ }
+#emailArea2{
+    width: 260px;
+    height: 150px;
+}
+
+#notesArea {
+    width: 400px;
+    height:200px;
+}
+
+#incompleteButton {
+    opacity: 0.7;
+}
+
+#incompleteButton.active {
+    opacity:1;
+}
+
+#requestedButton {
+    opacity: 0.7;
+}
+
+#requestedButton.active {
+    opacity:1;
+}
+
+#countersignedButton {
+    opacity: 0.7;
+}
+
+#countersignedButton.active {
+    opacity:1;
+}
+
+#unsignedButton {
+    opacity: 0.7;
+}
+
+#unsignedButton.active {
+    opacity:1;
+}
+
+#revisedButton {
+    opacity: 0.7;
+}
+
+#revisedButton.active {
+    opacity:1;
+}
+
+#signedButton {
+    opacity: 0.7;
+}
+
+#signedButton.active {
+    opacity: 1;
+}
+
+
+#underReviewButton {
+     opacity: 0.7;
+ }
+
+#underReviewButton.active {
+    opacity: 1;
+}
+
+#acceptedButton {
+     opacity: 0.7;
+ }
+
+#acceptedButton.active {
+    opacity: 1;
+}
+
+#rejectedButton {
+     opacity: 0.7;
+ }
+
+#rejectedButton.active {
+    opacity: 1;
+}
+
+#pendingButton {
+     opacity: 0.7;
+ }
+
+#pendingButton.active {
+    opacity: 1;
+}
+
+#mpReviewButton {
+    opacity: 0.7;
+}
+
+#mpReviewButton.active {
+    opacity: 1;
+}
+
+.btn-group {
+    margin-bottom: 5px;
+}
+
+#addRowButton, #deleteRowButton {
+    margin-top: -10px;
+
+}
+
+#totalTable td {
+    padding:5px;
+
+}
+
+#totalTable {
+    margin-right: 10px;
+}
+
+table input {
+
+    max-height:25px;
+}
+.modalTable {
+    padding-top:0;
+}
+.modalTable td{
+    padding-top: 0;
+    padding-bottom:0;
+}
+
+.notesArea {
+    height: 30px;
+    max-width: 450px;
+
+}
+
+.narrowField {
+    max-width:80px;
+}
+
+.muted {
+   font-size: 0.9em;
+}
+
+#optIn{
+    margin-bottom: 8px;
+}
+
+.dropdown-toggle {
+    min-width: 200px;
+}
+
+#myModal {
+    max-width: 480px;
+}
+
+.gPill {
+    color: #fff;
+    background: #08c;
+    border-radius: 4em;
+    padding: 0.25em 0.6em;
+    font-size: 0.6em;
+    vertical-align: super;
+}
+
+.gPill a {
+    color: #fff;
+}
+
+.budgetTD {
+   white-space: nowrap;
+}
+
+
+/*#ios th {*/
+    /*border: 1px;*/
+/*}*/
+
+/*#ios {*/
+    /*border-bottom: 3px;*/
+/*}*/
+.leftColumn {
+    border    : 0  !important;
+
+    background-color: #FFFFFF !important;
+}
+
+
+.rightColumn {
+    border    : 0  !important;
+
+    background-color: #FFFFFF !important;
+}
+
+a.editIOGroup {
+     color: lightgreen;
+ }
+a.editIOGroup:hover {
+    color: green;
+}
+
+a.viewIOGroup
+{
+    color:lightyellow;
+}
+a.viewIOGroup:hover {
+    color:darkgoldenrod;
+}
+
+a.dashIOGroup
+ {
+     color:lightsalmon;
+ }
+a.dashIOGroup:hover {
+    color:orange;
+}
+
+a.ardashIOGroup
+{
+    color:lightcyan;
+}
+a.ardashIOGroup:hover {
+    color:darkcyan;
+}
+
+a.sendIOGroup
+{
+    color:palevioletred;
+}
+a.sendIOGroup:hover {
+    color:purple;
+}
+
+a.startIOGroup
+{
+    color:white;
+}
+a.startIOGroup:hover {
+    color:dimgrey;
+}
+
+.pushDown {
+  margin-bottom: 10px;
+}

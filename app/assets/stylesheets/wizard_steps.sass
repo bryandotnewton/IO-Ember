@@ -1,0 +1,17 @@
+ul.wizard_steps
+  margin: 0
+  padding: 0
+  list-style: none
+  li
+    margin: 0
+    padding: 0 0 0 20px
+    background: image-url('icons/16x16/bullet_white.png') no-repeat left center
+    &.current
+      font-weight: bold
+      background-image: image-url('icons/16x16/bullet_green.png')
+    &.complete
+      background-image: image-url('icons/16x16/bullet_black.png')
+    &.todo
+      // use default white bullet
+    &.error
+      background-image: image-url('icons/16x16/bullet_red.png')
